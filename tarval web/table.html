@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     table, th, td
+        {
+            border: 3px solid green;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        div{
+            display: flex;
+            margin-top: 50px;
+        }
+        .email{
+            width: 500px;
+            
+        }
+        .lable{
+            transform: translateX(-500px);
+        }
+        .email:focus+.lable{
+            transform: translateX(-500px) translateY(-20px);
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">average</th>
+            <th rowspan="2">red eyes</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+        <tr>
+            <th>male</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+
+        </tr>
+        <tr>
+            <th>famale</th>
+            <td>1.0</td>
+            <td>0.44</td>
+            <td>90%</td>
+        </tr> -->
+
+<!-- <tr> 
+    <td colspan="2">cell1</td>
+    <td>cell2</td>
+    <td>cell3</td>
+
+</tr>
+<tr>
+    <td rowspan="3">cell4</td>
+    <td>cell5</td>
+    <td>cell6</td> 
+    <td>cell7</td>
+</tr>
+<tr>
+<td colspan="3">cell8</td>
+</tr>
+<tr>
+    <td>cell9</td>
+    <td colspan="2">cell10</td>
+</tr>
+
+
+
+    </table> -->
+
+
+    <!-- <form action="">
+        <label for="name">name</label>
+        <input type="text" id="name" placeholder="enter the name">
+        <br>
+        <label for="">Dob</label>
+        <input type="date" name="" id="">
+    </form> -->
+
+<div>
+    <input type="email" name="" id="" class="email">
+    <label for="" class="lable"> Enter your  email</label>
+</div>
+</body>
+</html>
